@@ -1,0 +1,71 @@
+#cont {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 50px;
+}
+
+#pole {
+  max-width: 420px;
+}
+
+#pole button {
+  width: 100px;
+  height: 100px;
+  float: left;
+  display: block;
+  cursor: pointer;
+  margin: 2px;
+  border: 1px solid #dfdfdf;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-size: 26px;
+}
+
+#pole .color1 {
+  background-color: #FF0000;
+}
+
+#pole .color2 {
+  background-color: #FF8000;
+}
+
+#pole .color3 {
+  background-color: #FFFF00;
+}
+
+#pole .color4 {
+  background-color: #40FF00;
+}
+
+#pole .color5 {
+  background-color: #01DFD7;
+}
+
+#pole .color6 {
+  background-color: #0000FF;
+}
+
+#pole .color7 {
+  background-color: #FF00BF;
+}
+
+#pole .color8 {
+  background-color: #071918;
+  color: #dfdfdf;
+}
+
+#pole .hidden {
+  color: white;
+  background-color: white;
+}
+
+.active{
+  top: 30% !important; transition: all 1s ease 0s;
+}
+.btn{
+  position: absolute;
+  top: -100%;
+  padding: 20px;
+  background: #FF00BF;transition: all 1s ease 0s;
+}
